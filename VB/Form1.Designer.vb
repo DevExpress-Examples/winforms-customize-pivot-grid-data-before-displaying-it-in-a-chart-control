@@ -1,6 +1,4 @@
-Imports Microsoft.VisualBasic
-Imports System
-Namespace WindowsApplication1
+﻿Namespace WindowsApplication1
 	Partial Public Class Form1
 		''' <summary>
 		''' Required designer variable.
@@ -59,7 +57,8 @@ Namespace WindowsApplication1
 			Me.pivotGridControl1.OptionsChartDataSource.ProvideRowTotals = False
 			Me.pivotGridControl1.Size = New System.Drawing.Size(734, 419)
 			Me.pivotGridControl1.TabIndex = 0
-'			Me.pivotGridControl1.CustomChartDataSourceData += New DevExpress.XtraPivotGrid.PivotCustomChartDataSourceDataEventHandler(Me.pivotGridControl1_CustomChartDataSourceData);
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.pivotGridControl1.CustomChartDataSourceData += new DevExpress.XtraPivotGrid.PivotCustomChartDataSourceDataEventHandler(this.pivotGridControl1_CustomChartDataSourceData);
 			' 
 			' productReportsBindingSource
 			' 
@@ -142,7 +141,8 @@ Namespace WindowsApplication1
 			Me.Controls.Add(Me.pivotGridControl1)
 			Me.Name = "Form1"
 			Me.Text = "Form1"
-'			Me.Load += New System.EventHandler(Me.Form1_Load);
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.Load += new System.EventHandler(this.Form1_Load);
 			CType(Me.pivotGridControl1, System.ComponentModel.ISupportInitialize).EndInit()
 			CType(Me.productReportsBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
 			CType(Me.nwindDataSet, System.ComponentModel.ISupportInitialize).EndInit()

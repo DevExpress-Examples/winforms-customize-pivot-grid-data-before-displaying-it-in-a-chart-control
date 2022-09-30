@@ -29,18 +29,16 @@ namespace WindowsApplication1 {
         void CreateEncodeTables() {
             int productCounter = 1;
             foreach(object value in fieldProductName.GetUniqueValues()) {
-                ProductEncodeTable.Add(value.ToString(), "P" + productCounter++);
+                ProductEncodeTable.Add(value.ToString(), "Products: " + productCounter++);
             }
 
             int categoryCounter = 1;
             foreach(object value in fieldCategoryName.GetUniqueValues()) {
-                CategoryEncodeTable.Add(value.ToString(), "C" + categoryCounter++);
+                CategoryEncodeTable.Add(value.ToString(), "Category: " + categoryCounter++);
             }
         }
 
         private void Form1_Load(object sender, EventArgs e) {
-            // TODO: This line of code loads data into the 'nwindDataSet.ProductReports' table. 
-            // You can move, or remove it, as needed.
             this.productReportsTableAdapter.Fill(this.nwindDataSet.ProductReports);
             pivotGridControl1.OptionsChartDataSource.ProvideRowFieldValuesAsType = typeof(string);
             pivotGridControl1.OptionsChartDataSource.ProvideColumnFieldValuesAsType = typeof(string);

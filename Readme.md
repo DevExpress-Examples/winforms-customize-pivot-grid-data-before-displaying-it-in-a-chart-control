@@ -5,7 +5,7 @@
 
 # WinForms - Customize Pivot Grid Data before Displaying it in the Chart Control
 
-The following example demonstrates how to add custom text to the Pivot Grid's data used as the datasource for the Chart control. The Pivot Grid supplies data to the attached Chart control in the form of a simple table. In the image below, the Chart axis labels display the number of unique values that are stored in the underlying data source in the Product Name and Categoty fields.
+The following example demonstrates how to add custom text to the Pivot Grid's data used as the data source for the Chart control. The Pivot Grid supplies data to the attached Chart control in the form of a simple table. In the image below, the Chart axis labels display the number of the unique values that are stored in the underlying data source in the _Product Name_ and _Categoty_ fields.
 
 ![Pivot Grid - Chart integraton](images/pivotgrid.png)
 

@@ -21,5 +21,5 @@ The following example demonstrates how to add custom text to the Pivot Grid's da
 
 ## More Examples 
 - [WinForms - How to visualize Pivot Grid Data in the Chart Control](https://github.com/DevExpress-Examples/winforms-visualize-pivot-grid-data-in-chart)
-- [WinForms - How to hide unnecessary series from the chart (Pivot - Chart Integration)](https://github.com/DevExpress-Examples/winforms-pivot-chart-integration-hide-unnecessary-series-from-the-chart)
+- [WinForms - How to Hide Unnecessary Series from the Chart (Pivot Grid - Chart Integration)](https://github.com/DevExpress-Examples/winforms-pivot-chart-integration-hide-unnecessary-series-from-the-chart)
 - [WinForms - Print a Document that Contains Pivot and Chart Controls](https://github.com/DevExpress-Examples/winforms-print-pivot-and-chart-controls)

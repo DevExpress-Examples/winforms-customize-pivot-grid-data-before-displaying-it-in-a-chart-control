@@ -30,11 +30,11 @@ Namespace WindowsApplication1
             Dim sideBySideBarSeriesLabel1 As DevExpress.XtraCharts.SideBySideBarSeriesLabel = New DevExpress.XtraCharts.SideBySideBarSeriesLabel()
             Me.pivotGridControl1 = New DevExpress.XtraPivotGrid.PivotGridControl()
             Me.productReportsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-            Me.nwindDataSet = New WindowsApplication1.nwindDataSet()
+            Me.nwindDataSet = New nwindDataSet()
             Me.fieldCategoryName = New DevExpress.XtraPivotGrid.PivotGridField()
             Me.fieldProductName = New DevExpress.XtraPivotGrid.PivotGridField()
             Me.fieldProductSales = New DevExpress.XtraPivotGrid.PivotGridField()
-            Me.productReportsTableAdapter = New WindowsApplication1.nwindDataSetTableAdapters.ProductReportsTableAdapter()
+            Me.productReportsTableAdapter = New nwindDataSetTableAdapters.ProductReportsTableAdapter()
             Me.chartControl1 = New DevExpress.XtraCharts.ChartControl()
             Me.fieldYear = New DevExpress.XtraPivotGrid.PivotGridField()
             CType((Me.pivotGridControl1), System.ComponentModel.ISupportInitialize).BeginInit()
@@ -155,11 +155,11 @@ Namespace WindowsApplication1
 #End Region
         Private pivotGridControl1 As DevExpress.XtraPivotGrid.PivotGridControl
 
-        Private nwindDataSet As WindowsApplication1.nwindDataSet
+        Private nwindDataSet As nwindDataSet
 
         Private productReportsBindingSource As System.Windows.Forms.BindingSource
 
-        Private productReportsTableAdapter As WindowsApplication1.nwindDataSetTableAdapters.ProductReportsTableAdapter
+        Private productReportsTableAdapter As nwindDataSetTableAdapters.ProductReportsTableAdapter
 
         Private fieldCategoryName As DevExpress.XtraPivotGrid.PivotGridField
 
